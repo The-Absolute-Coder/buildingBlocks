@@ -14,14 +14,14 @@ var poly;
 var boxes=[];
 
 function setup() {
-  createCanvas(400,400);
+  createCanvas(800,800);
 
   engine = Engine.create();
   world = engine.world;
   var option={
     isStatic:true
   };
-  ground=Bodies.rectangle(100,300,400,20,option);
+  ground=Bodies.rectangle(100,300,1600,20,option);
   World.add(world,ground);
   box1 = new Box(mouseX,mouseY,50,50);
   
