@@ -23,7 +23,7 @@ function setup() {
   };
   ground=Bodies.rectangle(100,300,400,20);
   World.add(world,ground);
-  //box1 = new Box(200,100,50,50);
+  box1 = new Box(200,100,50,50);
   
 
   rectMode(CENTER);
