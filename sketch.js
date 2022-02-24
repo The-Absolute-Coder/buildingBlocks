@@ -23,7 +23,7 @@ function setup() {
   };
   ground=Bodies.rectangle(100,300,1600,20,option);
   World.add(world,ground);
-  box1 = new Box(mouseX,mouseY,50,50);
+  box1 = new Box(100,200,50,50);
   
 
   rectMode(CENTER);
@@ -33,7 +33,7 @@ function mousePressed(){
   boxes.push(
     
     
-    new Box(50,50,mouseX,mouseY)
+    new Box(mouseX,mouseY,50,50)
     
     
     )
